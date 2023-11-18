@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Term Definition Sidebar Pattern</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <p>
+        <a href="#marmot-term">Marmots</a> are a type of ground squirrel That hibernates in the winter.
+        Marmots are known for their particular form of <a href="#granular-term">granular synthesis</a>.
+    </p>
+    <dialog>
+        <h1>Terms</h1>
+        <h2>Search</h2>
+        <div class="search">
+            <label for="search">Search Terms</label>
+            <input type="text" id="search">
+            <button>-></button>
+        </div>
+        <h2>Definitions</h2>
+        <dl>
+            <dt id="marmot-term" tabindex="-1">Marmot</dt>
+            <dl>A type of ground squirrel that hibernates in the winter.</dl>
+            <dt id="granular-term" tabindex="-1">Granular Synthesis</dt>
+            <dl>An audio effect created by taking short samples of incoming audio (typically 1-100ms) and then processing those samples.</dl>
+        </dl>
+    </dialog>
+</body>
+</html>

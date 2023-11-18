@@ -1,0 +1,22 @@
+:focus {
+    outline: 2px solid #333;
+    outline-offset: 2px;
+}
+
+::backdrop {
+    background-color: black;
+    opacity: 0.7;
+}
+
+dt {
+    font-weight: 700;
+}
+
+dialog:focus {
+    outline-color: white;
+}
+
+.sidebar.full {
+    height: 100vh;
+    overflow-y: scroll;
+}
